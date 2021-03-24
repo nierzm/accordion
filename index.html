@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accordion</title>
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/humanity/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <script>
+            $(function() {
+            $("#accordion").accordion();
+            });
+            $(function() {
+            $("#tabs").tabs();
+            });
+            $(function() {
+                $("ul").sortable();
+                $("ul").disableSelection();
+            });
+            $( function() {
+                $("#accordion").draggable();
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">POKEIPSUM</a></li>
+                <li><a href="#tabs-2">PIRATE IPSUM</a></li>
+                <li><a href="#tabs-3">YOLO IPSUM</a></li>
+            </ul>
+
+            <p id="tabs-1">Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p id="tabs-2">Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down clap of thunder.</p>
+            <p id="tabs-3">Yolo ipsum dolor sit amet, consectetur adipiscing elit. Ut ac suscipit leo.</p>
+        </div>
+
+         <div id="accordion">
+            <h3>BACON IPSUM</h3>
+            
+            <p>Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</p>
+
+            <h3>ZOMBIE IPSUM</h3>
+            <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.</p>
+            
+            <h3>CUPCAKE IPSUM</h3>
+            <p>Cupcake ipsum dolor. Sit amet marshmallow topping cheesecake muffin. Halvah croissant candy canes bonbon candy. Apple pie jelly beans topping carrot cake danish tart cake cheesecake. Muffin danish chocolate soufflé pastry icing bonbon oat cake. Powder cake jujubes oat cake. Lemon drops tootsie roll marshmallow halvah carrot cake.
+            </p>
+            
+            <h3>VEGGIE IPSUM</h3>
+            <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify.</p>
+        </div>
+    </body>
+</html>
